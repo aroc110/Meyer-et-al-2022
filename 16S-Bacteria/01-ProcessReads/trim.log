@@ -1,0 +1,2868 @@
+creating logger
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54312x-515_S57_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54312x-515_S57_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54312x-515_S57_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54312x-515_S57_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 2.04 s (35 us/read; 1.69 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             57,717
+  Read 1 with adapter:                  56,558 (98.0%)
+  Read 2 with adapter:                  45,913 (79.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        45,704 (79.2%)
+
+Total basepairs processed:    34,701,008 bp
+  Read 1:    17,370,197 bp
+  Read 2:    17,330,811 bp
+Total written (filtered):     25,696,591 bp (74.1%)
+  Read 1:    12,886,801 bp
+  Read 2:    12,809,790 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 56558 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	1	0.2	0	1
+12	2	0.0	1	2
+13	1	0.0	1	0 1
+14	1	0.0	1	0 1
+17	23	0.0	1	3 20
+18	924	0.0	1	309 615
+19	55473	0.0	1	50742 4731
+20	127	0.0	1	23 104
+21	1	0.0	1	1
+22	1	0.0	1	1
+23	2	0.0	1	1 1
+24	1	0.0	1	0 1
+48	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 45913 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	3	0.0	1	1 2
+18	8	0.0	1	0 8
+19	335	0.0	1	68 267
+20	45268	0.0	2	38043 7225
+21	298	0.0	2	1 297
+22	1	0.0	2	0 1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54313x-515_S58_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54313x-515_S58_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54313x-515_S58_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54313x-515_S58_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.18 s (26 us/read; 2.34 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             46,108
+  Read 1 with adapter:                  45,120 (97.9%)
+  Read 2 with adapter:                  36,850 (79.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        36,684 (79.6%)
+
+Total basepairs processed:    27,717,055 bp
+  Read 1:    13,874,204 bp
+  Read 2:    13,842,851 bp
+Total written (filtered):     20,623,184 bp (74.4%)
+  Read 1:    10,342,641 bp
+  Read 2:    10,280,543 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 45120 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	3	0.0	1	3
+14	1	0.0	1	0 1
+15	1	0.0	1	1
+16	1	0.0	1	1
+17	18	0.0	1	5 13
+18	726	0.0	1	231 495
+19	44258	0.0	1	40415 3843
+20	105	0.0	1	22 83
+21	2	0.0	1	2
+22	1	0.0	1	1
+23	2	0.0	1	1 1
+24	1	0.0	1	1
+25	1	0.0	1	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 36850 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	0 1
+16	2	0.0	1	2
+17	3	0.0	1	3
+18	5	0.0	1	0 5
+19	253	0.0	1	53 200
+20	36369	0.0	2	30651 5718
+21	215	0.0	2	8 207
+25	1	0.0	2	1
+64	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54314x-515_S59_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54314x-515_S59_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54314x-515_S59_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54314x-515_S59_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.89 s (17 us/read; 3.53 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             52,608
+  Read 1 with adapter:                  51,596 (98.1%)
+  Read 2 with adapter:                  42,299 (80.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        42,117 (80.1%)
+
+Total basepairs processed:    31,629,326 bp
+  Read 1:    15,833,254 bp
+  Read 2:    15,796,072 bp
+Total written (filtered):     23,680,632 bp (74.9%)
+  Read 1:    11,876,343 bp
+  Read 2:    11,804,289 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 51596 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	2
+15	1	0.0	1	1
+16	2	0.0	1	0 2
+17	18	0.0	1	4 14
+18	815	0.0	1	264 551
+19	50612	0.0	1	46321 4291
+20	134	0.0	1	21 113
+21	7	0.0	1	5 2
+22	2	0.0	1	1 1
+23	2	0.0	1	1 1
+25	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 42299 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2	822.0	0	2
+4	4	205.5	0	4
+12	1	0.0	1	0 1
+17	1	0.0	1	0 1
+18	8	0.0	1	1 7
+19	316	0.0	1	50 266
+20	41702	0.0	2	35409 6293
+21	265	0.0	2	12 253
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54315x-515_S60_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54315x-515_S60_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54315x-515_S60_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54315x-515_S60_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 6.51 s (163 us/read; 0.37 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             39,921
+  Read 1 with adapter:                  39,134 (98.0%)
+  Read 2 with adapter:                  32,005 (80.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        31,847 (79.8%)
+
+Total basepairs processed:    23,995,072 bp
+  Read 1:    12,011,024 bp
+  Read 2:    11,984,048 bp
+Total written (filtered):     17,901,437 bp (74.6%)
+  Read 1:     8,977,567 bp
+  Read 2:     8,923,870 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 39134 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2	623.8	0	2
+12	1	0.0	1	1
+17	14	0.0	1	5 9
+18	660	0.0	1	234 426
+19	38363	0.0	1	35057 3306
+20	90	0.0	1	8 82
+22	2	0.0	1	2
+23	1	0.0	1	1
+27	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 32005 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	2	0.0	1	2
+18	7	0.0	1	3 4
+19	236	0.0	1	40 196
+20	31488	0.0	2	26609 4879
+21	271	0.0	2	5 266
+41	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54316x-515_S61_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54316x-515_S61_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54316x-515_S61_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54316x-515_S61_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.06 s (23 us/read; 2.66 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             47,160
+  Read 1 with adapter:                  46,151 (97.9%)
+  Read 2 with adapter:                  37,271 (79.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        37,111 (78.7%)
+
+Total basepairs processed:    28,354,439 bp
+  Read 1:    14,192,979 bp
+  Read 2:    14,161,460 bp
+Total written (filtered):     20,865,879 bp (73.6%)
+  Read 1:    10,464,013 bp
+  Read 2:    10,401,866 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 46151 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.5	0	1
+11	1	0.0	1	0 1
+12	2	0.0	1	1 1
+17	11	0.0	1	0 11
+18	721	0.0	1	245 476
+19	45299	0.0	1	41380 3919
+20	110	0.0	1	15 95
+22	1	0.0	1	0 1
+23	1	0.0	1	1
+24	1	0.0	1	1
+33	1	0.0	1	1
+35	1	0.0	1	0 1
+38	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 37271 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	3	184.2	0	3
+15	1	0.0	1	1
+16	1	0.0	1	1
+17	5	0.0	1	5
+18	6	0.0	1	2 4
+19	238	0.0	1	40 198
+20	36755	0.0	2	30477 6278
+21	262	0.0	2	8 254
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54317x-515_S62_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54317x-515_S62_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54317x-515_S62_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54317x-515_S62_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.05 s (19 us/read; 3.24 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             56,871
+  Read 1 with adapter:                  55,359 (97.3%)
+  Read 2 with adapter:                  45,002 (79.1%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        44,789 (78.8%)
+
+Total basepairs processed:    34,183,758 bp
+  Read 1:    17,113,739 bp
+  Read 2:    17,070,019 bp
+Total written (filtered):     25,175,712 bp (73.6%)
+  Read 1:    12,627,719 bp
+  Read 2:    12,547,993 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 55359 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	2
+16	1	0.0	1	1
+17	6	0.0	1	1 5
+18	918	0.0	1	318 600
+19	54306	0.0	1	49355 4951
+20	119	0.0	1	21 98
+21	4	0.0	1	3 1
+25	1	0.0	1	1
+33	1	0.0	1	0 1
+40	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 45002 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	222.2	0	1
+10	2	0.1	1	0 2
+14	2	0.0	1	0 2
+15	1	0.0	1	1
+17	2	0.0	1	2
+18	11	0.0	1	4 7
+19	320	0.0	1	60 260
+20	44447	0.0	2	37470 6977
+21	216	0.0	2	11 205
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54318x-515_S63_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54318x-515_S63_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54318x-515_S63_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54318x-515_S63_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.91 s (22 us/read; 2.79 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             42,053
+  Read 1 with adapter:                  41,046 (97.6%)
+  Read 2 with adapter:                  33,142 (78.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        33,019 (78.5%)
+
+Total basepairs processed:    25,280,499 bp
+  Read 1:    12,655,209 bp
+  Read 2:    12,625,290 bp
+Total written (filtered):     18,563,044 bp (73.4%)
+  Read 1:     9,309,993 bp
+  Read 2:     9,253,051 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 41046 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	4	0.0	1	4
+15	3	0.0	1	1 2
+17	10	0.0	1	2 8
+18	650	0.0	1	226 424
+19	40294	0.0	1	36800 3494
+20	75	0.0	1	15 60
+21	4	0.0	1	2 2
+22	2	0.0	1	2
+23	2	0.0	1	2
+26	1	0.0	1	1
+32	1	0.0	1	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 33142 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	4	164.3	0	4
+5	1	41.1	0	1
+12	1	0.0	1	0 1
+15	1	0.0	1	1
+17	6	0.0	1	5 1
+18	7	0.0	1	3 4
+19	243	0.0	1	54 189
+20	32632	0.0	2	27092 5540
+21	247	0.0	2	9 238
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54319x-515_S64_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54319x-515_S64_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54319x-515_S64_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54319x-515_S64_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.12 s (21 us/read; 2.79 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             51,951
+  Read 1 with adapter:                  50,802 (97.8%)
+  Read 2 with adapter:                  41,515 (79.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        41,325 (79.5%)
+
+Total basepairs processed:    31,231,155 bp
+  Read 1:    15,634,286 bp
+  Read 2:    15,596,869 bp
+Total written (filtered):     23,231,748 bp (74.4%)
+  Read 1:    11,651,547 bp
+  Read 2:    11,580,201 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 50802 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	1	0.8	0	1
+9	1	0.2	0	1
+12	4	0.0	1	3 1
+16	2	0.0	1	0 2
+17	12	0.0	1	2 10
+18	800	0.0	1	267 533
+19	49845	0.0	1	45518 4327
+20	129	0.0	1	27 102
+21	3	0.0	1	3
+22	2	0.0	1	1 1
+34	1	0.0	1	1
+35	1	0.0	1	1
+40	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 41515 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2	811.7	0	2
+16	1	0.0	1	0 1
+17	3	0.0	1	1 2
+18	9	0.0	1	5 4
+19	310	0.0	1	60 250
+20	40935	0.0	2	34796 6139
+21	254	0.0	2	12 242
+59	1	0.0	2	0 1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54320x-515_S65_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54320x-515_S65_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54320x-515_S65_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54320x-515_S65_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.11 s (18 us/read; 3.24 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             60,204
+  Read 1 with adapter:                  58,722 (97.5%)
+  Read 2 with adapter:                  47,805 (79.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        47,579 (79.0%)
+
+Total basepairs processed:    36,192,376 bp
+  Read 1:    18,118,315 bp
+  Read 2:    18,074,061 bp
+Total written (filtered):     26,748,312 bp (73.9%)
+  Read 1:    13,415,557 bp
+  Read 2:    13,332,755 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 58722 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	3	0.0	1	3
+14	1	0.0	1	0 1
+15	1	0.0	1	1
+16	2	0.0	1	1 1
+17	15	0.0	1	5 10
+18	928	0.0	1	299 629
+19	57629	0.0	1	52464 5165
+20	134	0.0	1	18 116
+21	3	0.0	1	3
+25	1	0.0	1	1
+34	2	0.0	1	2
+47	1	0.0	1	1
+53	2	0.0	1	2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 47805 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2	940.7	0	2
+16	1	0.0	1	0 1
+17	4	0.0	1	4
+18	5	0.0	1	2 3
+19	356	0.0	1	69 287
+20	47163	0.0	2	39973 7190
+21	274	0.0	2	7 267
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54321x-515_S66_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54321x-515_S66_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54321x-515_S66_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54321x-515_S66_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.05 s (21 us/read; 2.91 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             51,115
+  Read 1 with adapter:                  50,075 (98.0%)
+  Read 2 with adapter:                  40,259 (78.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        40,056 (78.4%)
+
+Total basepairs processed:    30,732,075 bp
+  Read 1:    15,383,077 bp
+  Read 2:    15,348,998 bp
+Total written (filtered):     22,521,694 bp (73.3%)
+  Read 1:    11,294,613 bp
+  Read 2:    11,227,081 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 50075 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	2	0.2	0	2
+12	2	0.0	1	2
+14	1	0.0	1	1
+15	1	0.0	1	1
+16	2	0.0	1	0 2
+17	11	0.0	1	2 9
+18	889	0.0	1	285 604
+19	49037	0.0	1	44480 4557
+20	127	0.0	1	23 104
+21	1	0.0	1	0 1
+22	1	0.0	1	1
+24	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 40259 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	2	0.0	1	2
+13	3	0.0	1	2 1
+16	1	0.0	1	1
+17	3	0.0	1	2 1
+18	6	0.0	1	0 6
+19	290	0.0	1	56 234
+20	39719	0.0	2	32844 6875
+21	235	0.0	2	4 231
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54322x-515_S67_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54322x-515_S67_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54322x-515_S67_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54322x-515_S67_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.88 s (26 us/read; 2.33 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             34,140
+  Read 1 with adapter:                  33,279 (97.5%)
+  Read 2 with adapter:                  26,717 (78.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        26,574 (77.8%)
+
+Total basepairs processed:    20,527,648 bp
+  Read 1:    10,275,290 bp
+  Read 2:    10,252,358 bp
+Total written (filtered):     14,942,137 bp (72.8%)
+  Read 1:     7,493,411 bp
+  Read 2:     7,448,726 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 33279 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	1	0.1	0	1
+12	2	0.0	1	2
+13	1	0.0	1	1
+16	3	0.0	1	1 2
+17	18	0.0	1	2 16
+18	553	0.0	1	199 354
+19	32618	0.0	1	29726 2892
+20	78	0.0	1	9 69
+21	2	0.0	1	2
+22	1	0.0	1	0 1
+40	1	0.0	1	1
+43	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 26717 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	133.4	0	1
+17	5	0.0	1	1 4
+18	3	0.0	1	1 2
+19	158	0.0	1	33 125
+20	26313	0.0	2	21797 4516
+21	237	0.0	2	1 236
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54323x-515_S68_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54323x-515_S68_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54323x-515_S68_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54323x-515_S68_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.74 s (22 us/read; 2.77 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             34,218
+  Read 1 with adapter:                  33,483 (97.9%)
+  Read 2 with adapter:                  27,289 (79.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        27,148 (79.3%)
+
+Total basepairs processed:    20,569,795 bp
+  Read 1:    10,297,556 bp
+  Read 2:    10,272,239 bp
+Total written (filtered):     15,262,009 bp (74.2%)
+  Read 1:     7,654,719 bp
+  Read 2:     7,607,290 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 33483 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+16	1	0.0	1	1
+17	9	0.0	1	4 5
+18	564	0.0	1	206 358
+19	32818	0.0	1	29955 2863
+20	85	0.0	1	9 76
+21	1	0.0	1	1
+22	1	0.0	1	1
+23	1	0.0	1	1
+25	1	0.0	1	0 1
+52	1	0.0	1	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 27289 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1	0.0	1	0 1
+11	1	0.0	1	1
+12	1	0.0	1	0 1
+14	1	0.0	1	0 1
+17	1	0.0	1	1
+18	2	0.0	1	0 2
+19	232	0.0	1	35 197
+20	26857	0.0	2	22708 4149
+21	193	0.0	2	7 186
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54324x-515_S69_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54324x-515_S69_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54324x-515_S69_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54324x-515_S69_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.04 s (26 us/read; 2.33 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             40,274
+  Read 1 with adapter:                  39,400 (97.8%)
+  Read 2 with adapter:                  31,947 (79.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        31,813 (79.0%)
+
+Total basepairs processed:    24,213,584 bp
+  Read 1:    12,121,065 bp
+  Read 2:    12,092,519 bp
+Total written (filtered):     17,887,416 bp (73.9%)
+  Read 1:     8,970,979 bp
+  Read 2:     8,916,437 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 39400 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	1 1
+13	1	0.0	1	1
+14	1	0.0	1	0 1
+15	1	0.0	1	1
+16	1	0.0	1	1
+17	15	0.0	1	2 13
+18	671	0.0	1	221 450
+19	38597	0.0	1	35241 3356
+20	106	0.0	1	24 82
+21	3	0.0	1	2 1
+22	1	0.0	1	1
+23	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 31947 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	2	0.0	1	2
+18	1	0.0	1	0 1
+19	247	0.0	1	55 192
+20	31493	0.0	2	26610 4883
+21	204	0.0	2	9 195
+Running external command line application. This may print messages to stdout and/or stderr.
+The commands to be run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54312x-515_S57_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54312x-515_S57_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54312x-515_S57_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54312x-515_S57_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54313x-515_S58_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54313x-515_S58_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54313x-515_S58_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54313x-515_S58_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54314x-515_S59_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54314x-515_S59_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54314x-515_S59_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54314x-515_S59_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54315x-515_S60_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54315x-515_S60_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54315x-515_S60_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54315x-515_S60_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54316x-515_S61_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54316x-515_S61_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54316x-515_S61_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54316x-515_S61_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54317x-515_S62_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54317x-515_S62_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54317x-515_S62_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54317x-515_S62_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54318x-515_S63_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54318x-515_S63_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54318x-515_S63_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54318x-515_S63_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54319x-515_S64_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54319x-515_S64_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54319x-515_S64_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54319x-515_S64_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54320x-515_S65_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54320x-515_S65_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54320x-515_S65_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54320x-515_S65_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54321x-515_S66_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54321x-515_S66_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54321x-515_S66_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54321x-515_S66_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54322x-515_S67_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54322x-515_S67_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54322x-515_S67_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54322x-515_S67_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54323x-515_S68_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54323x-515_S68_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54323x-515_S68_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54323x-515_S68_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54324x-515_S69_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54324x-515_S69_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54324x-515_S69_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54324x-515_S69_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54325x-515_S70_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54325x-515_S70_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54325x-515_S70_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54325x-515_S70_L001_R2_001.fastq.gzThis is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54325x-515_S70_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54325x-515_S70_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54325x-515_S70_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54325x-515_S70_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.81 s (26 us/read; 2.29 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             30,939
+  Read 1 with adapter:                  30,324 (98.0%)
+  Read 2 with adapter:                  24,860 (80.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        24,755 (80.0%)
+
+Total basepairs processed:    18,600,690 bp
+  Read 1:     9,311,277 bp
+  Read 2:     9,289,413 bp
+Total written (filtered):     13,918,349 bp (74.8%)
+  Read 1:     6,980,350 bp
+  Read 2:     6,937,999 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 30324 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+15	1	0.0	1	1
+17	10	0.0	1	3 7
+18	509	0.0	1	168 341
+19	29722	0.0	1	27171 2551
+20	78	0.0	1	9 69
+21	3	0.0	1	2 1
+23	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 24860 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	483.4	0	1
+12	1	0.0	1	1
+14	1	0.0	1	0 1
+17	2	0.0	1	2
+18	3	0.0	1	2 1
+19	164	0.0	1	33 131
+20	24512	0.0	2	20807 3705
+21	175	0.0	2	5 170
+25	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54326x-515_S71_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54326x-515_S71_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54326x-515_S71_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54326x-515_S71_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.85 s (22 us/read; 2.77 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             39,422
+  Read 1 with adapter:                  38,521 (97.7%)
+  Read 2 with adapter:                  31,260 (79.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        31,121 (78.9%)
+
+Total basepairs processed:    23,702,961 bp
+  Read 1:    11,864,900 bp
+  Read 2:    11,838,061 bp
+Total written (filtered):     17,498,701 bp (73.8%)
+  Read 1:     8,775,793 bp
+  Read 2:     8,722,908 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 38521 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+15	1	0.0	1	1
+16	1	0.0	1	0 1
+17	10	0.0	1	3 7
+18	653	0.0	1	251 402
+19	37751	0.0	1	34502 3249
+20	94	0.0	1	16 78
+21	2	0.0	1	1 1
+22	4	0.0	1	3 1
+23	1	0.0	1	1
+27	1	0.0	1	1
+33	1	0.0	1	1
+43	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 31260 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	0 1
+17	1	0.0	1	0 1
+18	3	0.0	1	0 3
+19	238	0.0	1	46 192
+20	30760	0.0	2	26059 4701
+21	257	0.0	2	6 251
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54327x-515_S72_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54327x-515_S72_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54327x-515_S72_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54327x-515_S72_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.87 s (31 us/read; 1.96 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             28,525
+  Read 1 with adapter:                  27,979 (98.1%)
+  Read 2 with adapter:                  22,875 (80.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        22,766 (79.8%)
+
+Total basepairs processed:    17,149,540 bp
+  Read 1:     8,584,357 bp
+  Read 2:     8,565,183 bp
+Total written (filtered):     12,800,205 bp (74.6%)
+  Read 1:     6,419,384 bp
+  Read 2:     6,380,821 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 27979 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	1	0.0	1	1
+15	1	0.0	1	0 1
+16	2	0.0	1	2
+17	8	0.0	1	0 8
+18	449	0.0	1	124 325
+19	27440	0.0	1	25127 2313
+20	76	0.0	1	12 64
+22	1	0.0	1	1
+24	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 22875 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	111.4	0	1
+17	3	0.0	1	2 1
+18	3	0.0	1	0 3
+19	163	0.0	1	41 122
+20	22558	0.0	2	19012 3546
+21	147	0.0	2	7 140
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54328x-515_S73_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54328x-515_S73_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54328x-515_S73_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54328x-515_S73_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.21 s (15 us/read; 3.90 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             78,729
+  Read 1 with adapter:                  77,093 (97.9%)
+  Read 2 with adapter:                  63,071 (80.1%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        62,782 (79.7%)
+
+Total basepairs processed:    47,257,512 bp
+  Read 1:    23,654,356 bp
+  Read 2:    23,603,156 bp
+Total written (filtered):     35,246,797 bp (74.6%)
+  Read 1:    17,676,238 bp
+  Read 2:    17,570,559 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 77093 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	1230.1	0	1
+7	1	4.8	0	1
+8	1	1.2	0	1
+9	3	0.3	0	3
+12	3	0.0	1	3
+15	2	0.0	1	1 1
+16	3	0.0	1	3
+17	29	0.0	1	3 26
+18	1201	0.0	1	446 755
+19	75645	0.0	1	69098 6547
+20	195	0.0	1	30 165
+21	4	0.0	1	4
+22	2	0.0	1	1 1
+23	2	0.0	1	1 1
+43	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 63071 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	3	307.5	0	3
+11	1	0.0	1	0 1
+16	1	0.0	1	1
+17	3	0.0	1	1 2
+18	11	0.0	1	7 4
+19	412	0.0	1	75 337
+20	62209	0.0	2	53227 8982
+21	429	0.0	2	10 419
+38	1	0.0	2	1
+44	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54329x-515_S74_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54329x-515_S74_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54329x-515_S74_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54329x-515_S74_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.82 s (21 us/read; 2.82 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             38,432
+  Read 1 with adapter:                  37,707 (98.1%)
+  Read 2 with adapter:                  30,698 (79.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        30,581 (79.6%)
+
+Total basepairs processed:    23,113,262 bp
+  Read 1:    11,567,443 bp
+  Read 2:    11,545,819 bp
+Total written (filtered):     17,199,357 bp (74.4%)
+  Read 1:     8,623,678 bp
+  Read 2:     8,575,679 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 37707 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+16	2	0.0	1	0 2
+17	9	0.0	1	1 8
+18	629	0.0	1	194 435
+19	36954	0.0	1	33731 3223
+20	106	0.0	1	21 85
+21	2	0.0	1	1 1
+22	1	0.0	1	1
+23	2	0.0	1	2
+26	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 30698 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	4	0.0	1	2 2
+18	5	0.0	1	1 4
+19	200	0.0	1	27 173
+20	30347	0.0	2	25455 4892
+21	142	0.0	2	4 138
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54330x-515_S75_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54330x-515_S75_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54330x-515_S75_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54330x-515_S75_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.00 s (20 us/read; 3.00 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             49,794
+  Read 1 with adapter:                  48,767 (97.9%)
+  Read 2 with adapter:                  39,740 (79.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        39,545 (79.4%)
+
+Total basepairs processed:    29,938,051 bp
+  Read 1:    14,985,591 bp
+  Read 2:    14,952,460 bp
+Total written (filtered):     22,234,461 bp (74.3%)
+  Read 1:    11,150,307 bp
+  Read 2:    11,084,154 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 48767 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	1	0.2	0	1
+12	2	0.0	1	2
+15	1	0.0	1	0 1
+16	3	0.0	1	2 1
+17	22	0.0	1	3 19
+18	766	0.0	1	245 521
+19	47862	0.0	1	43700 4162
+20	104	0.0	1	18 86
+21	2	0.0	1	1 1
+22	1	0.0	1	1
+23	2	0.0	1	2
+26	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 39740 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	3	0.0	1	2 1
+17	4	0.0	1	4
+18	3	0.0	1	1 2
+19	272	0.0	1	52 220
+20	39266	0.0	2	32975 6291
+21	191	0.0	2	7 184
+22	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54331x-515_S76_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54331x-515_S76_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54331x-515_S76_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54331x-515_S76_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.91 s (27 us/read; 2.24 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             34,147
+  Read 1 with adapter:                  33,385 (97.8%)
+  Read 2 with adapter:                  26,851 (78.6%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        26,729 (78.3%)
+
+Total basepairs processed:    20,525,243 bp
+  Read 1:    10,274,584 bp
+  Read 2:    10,250,659 bp
+Total written (filtered):     15,024,913 bp (73.2%)
+  Read 1:     7,535,224 bp
+  Read 2:     7,489,689 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 33385 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	1	0.5	0	1
+13	1	0.0	1	0 1
+16	2	0.0	1	1 1
+17	10	0.0	1	6 4
+18	526	0.0	1	180 346
+19	32749	0.0	1	29813 2936
+20	92	0.0	1	8 84
+21	1	0.0	1	1
+22	2	0.0	1	2
+23	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 26851 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	1	0.0	1	1
+17	4	0.0	1	2 2
+18	7	0.0	1	4 3
+19	190	0.0	1	36 154
+20	26455	0.0	2	22105 4350
+21	194	0.0	2	1 193
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54332x-515_S77_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54332x-515_S77_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54332x-515_S77_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54332x-515_S77_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.95 s (22 us/read; 2.78 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             44,023
+  Read 1 with adapter:                  42,897 (97.4%)
+  Read 2 with adapter:                  34,331 (78.0%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        34,186 (77.7%)
+
+Total basepairs processed:    26,465,574 bp
+  Read 1:    13,247,757 bp
+  Read 2:    13,217,817 bp
+Total written (filtered):     19,221,167 bp (72.6%)
+  Read 1:     9,639,339 bp
+  Read 2:     9,581,828 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 42897 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	1 1
+16	1	0.0	1	0 1
+17	10	0.0	1	2 8
+18	670	0.0	1	251 419
+19	42110	0.0	1	38375 3735
+20	98	0.0	1	13 85
+21	1	0.0	1	1
+22	2	0.0	1	1 1
+23	1	0.0	1	1
+25	2	0.0	1	2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 34331 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	2	172.0	0	2
+17	3	0.0	1	3
+18	5	0.0	1	2 3
+19	268	0.0	1	46 222
+20	33833	0.0	2	28094 5739
+21	218	0.0	2	8 210
+66	2	0.0	2	2
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54333x-515_S78_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54333x-515_S78_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54333x-515_S78_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54333x-515_S78_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.90 s (22 us/read; 2.71 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             40,780
+  Read 1 with adapter:                  40,072 (98.3%)
+  Read 2 with adapter:                  32,481 (79.6%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        32,328 (79.3%)
+
+Total basepairs processed:    24,518,015 bp
+  Read 1:    12,273,888 bp
+  Read 2:    12,244,127 bp
+Total written (filtered):     18,176,104 bp (74.1%)
+  Read 1:     9,116,165 bp
+  Read 2:     9,059,939 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 40072 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+16	3	0.0	1	0 3
+17	14	0.0	1	3 11
+18	676	0.0	1	220 456
+19	39285	0.0	1	35978 3307
+20	81	0.0	1	12 69
+21	6	0.0	1	4 2
+22	3	0.0	1	3
+31	1	0.0	1	1
+43	1	0.0	1	0 1
+47	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 32481 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	159.3	0	1
+12	1	0.0	1	0 1
+17	1	0.0	1	1
+18	1	0.0	1	1
+19	235	0.0	1	53 182
+20	32043	0.0	2	26517 5526
+21	199	0.0	2	3 196
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54334x-515_S79_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54334x-515_S79_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54334x-515_S79_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54334x-515_S79_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.93 s (34 us/read; 1.77 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             27,462
+  Read 1 with adapter:                  26,888 (97.9%)
+  Read 2 with adapter:                  21,658 (78.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        21,551 (78.5%)
+
+Total basepairs processed:    16,510,290 bp
+  Read 1:     8,265,047 bp
+  Read 2:     8,245,243 bp
+Total written (filtered):     12,116,163 bp (73.4%)
+  Read 1:     6,076,682 bp
+  Read 2:     6,039,481 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 26888 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+15	3	0.0	1	0 3
+17	5	0.0	1	3 2
+18	452	0.0	1	171 281
+19	26353	0.0	1	23988 2365
+20	70	0.0	1	15 55
+22	1	0.0	1	1
+24	1	0.0	1	1
+25	1	0.0	1	1
+42	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 21658 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	2	0.0	1	1 1
+18	9	0.0	1	4 5
+19	169	0.0	1	39 130
+20	21325	0.0	2	17889 3436
+21	153	0.0	2	4 149
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54335x-515_S80_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54335x-515_S80_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54335x-515_S80_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54335x-515_S80_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.92 s (22 us/read; 2.75 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             41,975
+  Read 1 with adapter:                  41,124 (98.0%)
+  Read 2 with adapter:                  33,346 (79.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        33,212 (79.1%)
+
+Total basepairs processed:    25,229,583 bp
+  Read 1:    12,629,256 bp
+  Read 2:    12,600,327 bp
+Total written (filtered):     18,668,833 bp (74.0%)
+  Read 1:     9,362,399 bp
+  Read 2:     9,306,434 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 41124 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	1	0.2	0	1
+14	2	0.0	1	1 1
+15	1	0.0	1	1
+17	8	0.0	1	1 7
+18	588	0.0	1	207 381
+19	40430	0.0	1	36892 3538
+20	86	0.0	1	19 67
+21	3	0.0	1	3
+22	1	0.0	1	0 1
+26	1	0.0	1	0 1
+38	1	0.0	1	1
+47	1	0.0	1	1
+49	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 33346 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	164.0	0	1
+10	1	0.0	1	1
+12	1	0.0	1	0 1
+16	1	0.0	1	1
+18	1	0.0	1	0 1
+19	242	0.0	1	44 198
+20	32868	0.0	2	27838 5030
+21	231	0.0	2	6 225
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54336x-515_S81_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54336x-515_S81_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54336x-515_S81_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54336x-515_S81_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.73 s (27 us/read; 2.21 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             26,732
+  Read 1 with adapter:                  26,222 (98.1%)
+  Read 2 with adapter:                  21,368 (79.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        21,255 (79.5%)
+
+Total basepairs processed:    16,069,954 bp
+  Read 1:     8,044,438 bp
+  Read 2:     8,025,516 bp
+Total written (filtered):     11,948,690 bp (74.4%)
+  Read 1:     5,992,664 bp
+  Read 2:     5,956,026 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 26222 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	1	1.6	0	1
+12	2	0.0	1	2
+15	1	0.0	1	0 1
+16	1	0.0	1	0 1
+17	5	0.0	1	1 4
+18	487	0.0	1	186 301
+19	25664	0.0	1	23355 2309
+20	58	0.0	1	5 53
+21	2	0.0	1	2
+33	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 21368 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1	0.0	1	0 1
+11	1	0.0	1	1
+13	1	0.0	1	0 1
+18	4	0.0	1	1 3
+19	161	0.0	1	28 133
+20	21009	0.0	2	17628 3381
+21	191	0.0	2	4 187
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54337x-515_S82_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54337x-515_S82_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54337x-515_S82_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54337x-515_S82_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.99 s (22 us/read; 2.74 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             45,139
+  Read 1 with adapter:                  43,940 (97.3%)
+  Read 2 with adapter:                  35,606 (78.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        35,409 (78.4%)
+
+Total basepairs processed:    27,134,521 bp
+  Read 1:    13,584,758 bp
+  Read 2:    13,549,763 bp
+Total written (filtered):     19,905,148 bp (73.4%)
+  Read 1:     9,984,056 bp
+  Read 2:     9,921,092 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 43940 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+14	1	0.0	1	0 1
+15	1	0.0	1	0 1
+16	3	0.0	1	0 3
+17	13	0.0	1	6 7
+18	723	0.0	1	252 471
+19	43095	0.0	1	39075 4020
+20	92	0.0	1	22 70
+21	3	0.0	1	3
+22	3	0.0	1	3
+23	1	0.0	1	0 1
+26	3	0.0	1	2 1
+31	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 35606 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	2	0.0	1	2
+18	4	0.0	1	0 4
+19	218	0.0	1	39 179
+20	35130	0.0	2	29468 5662
+21	251	0.0	2	6 245
+22	1	0.0	2	0 1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54338x-515_S83_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54338x-515_S83_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54338x-515_S83_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54338x-515_S83_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.98 s (24 us/read; 2.54 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             41,504
+  Read 1 with adapter:                  40,602 (97.8%)
+  Read 2 with adapter:                  33,125 (79.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        32,987 (79.5%)
+
+Total basepairs processed:    24,952,757 bp
+  Read 1:    12,490,414 bp
+  Read 2:    12,462,343 bp
+Total written (filtered):     18,547,128 bp (74.3%)
+  Read 1:     9,301,327 bp
+  Read 2:     9,245,801 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 40602 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	2	0.0	1	1 1
+16	1	0.0	1	0 1
+17	8	0.0	1	2 6
+18	673	0.0	1	237 436
+19	39820	0.0	1	36295 3525
+20	92	0.0	1	14 78
+21	3	0.0	1	2 1
+23	1	0.0	1	0 1
+34	1	0.0	1	1
+37	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 33125 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	2	162.1	0	2
+11	2	0.0	1	1 1
+13	1	0.0	1	1
+14	1	0.0	1	1
+17	2	0.0	1	1 1
+18	5	0.0	1	1 4
+19	259	0.0	1	56 203
+20	32647	0.0	2	27639 5008
+21	206	0.0	2	5 201
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54339x-515_S84_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54339x-515_S84_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54339x-515_S84_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54339x-515_S84_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.85 s (17 us/read; 3.46 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             48,705
+  Read 1 with adapter:                  47,662 (97.9%)
+  Read 2 with adapter:                  38,259 (78.6%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        38,080 (78.2%)
+
+Total basepairs processed:    29,275,377 bp
+  Read 1:    14,654,870 bp
+  Read 2:    14,620,507 bp
+Total written (filtered):     21,405,297 bp (73.1%)
+  Read 1:    10,735,658 bp
+  Read 2:    10,669,639 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 47662 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+14	2	0.0	1	2
+16	2	0.0	1	2
+17	13	0.0	1	1 12
+18	742	0.0	1	280 462
+19	46778	0.0	1	42730 4048
+20	120	0.0	1	19 101
+21	3	0.0	1	2 1
+22	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 38259 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	190.3	0	1
+17	3	0.0	1	2 1
+18	5	0.0	1	1 4
+19	288	0.0	1	60 228
+20	37734	0.0	2	31404 6330
+21	226	0.0	2	4 222
+47	1	0.0	2	1
+56	1	0.0	2	1
+
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54326x-515_S71_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54326x-515_S71_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54326x-515_S71_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54326x-515_S71_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54327x-515_S72_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54327x-515_S72_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54327x-515_S72_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54327x-515_S72_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54328x-515_S73_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54328x-515_S73_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54328x-515_S73_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54328x-515_S73_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54329x-515_S74_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54329x-515_S74_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54329x-515_S74_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54329x-515_S74_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54330x-515_S75_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54330x-515_S75_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54330x-515_S75_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54330x-515_S75_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54331x-515_S76_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54331x-515_S76_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54331x-515_S76_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54331x-515_S76_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54332x-515_S77_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54332x-515_S77_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54332x-515_S77_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54332x-515_S77_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54333x-515_S78_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54333x-515_S78_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54333x-515_S78_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54333x-515_S78_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54334x-515_S79_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54334x-515_S79_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54334x-515_S79_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54334x-515_S79_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54335x-515_S80_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54335x-515_S80_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54335x-515_S80_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54335x-515_S80_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54336x-515_S81_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54336x-515_S81_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54336x-515_S81_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54336x-515_S81_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54337x-515_S82_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54337x-515_S82_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54337x-515_S82_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54337x-515_S82_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54338x-515_S83_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54338x-515_S83_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54338x-515_S83_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54338x-515_S83_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54339x-515_S84_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54339x-515_S84_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54339x-515_S84_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54339x-515_S84_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54340x-515_S85_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54340x-515_S85_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54340x-515_S85_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54340x-515_S85_L001_R2_001.fastq.gzThis is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54340x-515_S85_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54340x-515_S85_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54340x-515_S85_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54340x-515_S85_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.98 s (19 us/read; 3.11 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             50,810
+  Read 1 with adapter:                  49,855 (98.1%)
+  Read 2 with adapter:                  40,347 (79.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        40,200 (79.1%)
+
+Total basepairs processed:    30,552,947 bp
+  Read 1:    15,292,741 bp
+  Read 2:    15,260,206 bp
+Total written (filtered):     22,606,170 bp (74.0%)
+  Read 1:    11,336,181 bp
+  Read 2:    11,269,989 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 49855 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	0 1
+15	1	0.0	1	0 1
+16	1	0.0	1	1
+17	11	0.0	1	1 10
+18	740	0.0	1	242 498
+19	48988	0.0	1	44737 4251
+20	108	0.0	1	14 94
+21	2	0.0	1	2
+22	1	0.0	1	1
+23	1	0.0	1	1
+24	1	0.0	1	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 40347 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2	793.9	0	2
+4	2	198.5	0	2
+17	3	0.0	1	3
+18	11	0.0	1	2 9
+19	289	0.0	1	48 241
+20	39802	0.0	2	33462 6340
+21	237	0.0	2	6 231
+60	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54341x-515_S86_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54341x-515_S86_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54341x-515_S86_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54341x-515_S86_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.88 s (21 us/read; 2.89 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             42,335
+  Read 1 with adapter:                  41,378 (97.7%)
+  Read 2 with adapter:                  33,528 (79.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        33,378 (78.8%)
+
+Total basepairs processed:    25,456,531 bp
+  Read 1:    12,740,599 bp
+  Read 2:    12,715,932 bp
+Total written (filtered):     18,770,481 bp (73.7%)
+  Read 1:     9,411,691 bp
+  Read 2:     9,358,790 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 41378 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+14	1	0.0	1	0 1
+15	1	0.0	1	1
+16	3	0.0	1	0 3
+17	13	0.0	1	4 9
+18	678	0.0	1	222 456
+19	40561	0.0	1	36905 3656
+20	114	0.0	1	18 96
+21	2	0.0	1	1 1
+22	1	0.0	1	1
+23	1	0.0	1	0 1
+28	1	0.0	1	1
+36	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 33528 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	2	165.4	0	2
+16	1	0.0	1	0 1
+17	4	0.0	1	2 2
+18	3	0.0	1	2 1
+19	231	0.0	1	42 189
+20	33119	0.0	2	27753 5366
+21	168	0.0	2	4 164
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54342x-515_S87_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54342x-515_S87_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54342x-515_S87_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54342x-515_S87_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.86 s (27 us/read; 2.24 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             32,160
+  Read 1 with adapter:                  31,610 (98.3%)
+  Read 2 with adapter:                  26,105 (81.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        25,995 (80.8%)
+
+Total basepairs processed:    19,335,515 bp
+  Read 1:     9,678,742 bp
+  Read 2:     9,656,773 bp
+Total written (filtered):     14,615,872 bp (75.6%)
+  Read 1:     7,330,019 bp
+  Read 2:     7,285,853 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 31610 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	1	0.1	0	1
+12	1	0.0	1	0 1
+14	3	0.0	1	1 2
+16	1	0.0	1	0 1
+17	4	0.0	1	2 2
+18	484	0.0	1	160 324
+19	31040	0.0	1	28267 2773
+20	72	0.0	1	8 64
+21	3	0.0	1	2 1
+22	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 26105 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	2	125.6	0	2
+17	2	0.0	1	2
+18	6	0.0	1	4 2
+19	195	0.0	1	46 149
+20	25779	0.0	2	21958 3821
+21	121	0.0	2	4 117
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54343x-515_S88_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54343x-515_S88_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54343x-515_S88_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54343x-515_S88_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.93 s (23 us/read; 2.60 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             40,335
+  Read 1 with adapter:                  39,470 (97.9%)
+  Read 2 with adapter:                  31,585 (78.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        31,428 (77.9%)
+
+Total basepairs processed:    24,243,107 bp
+  Read 1:    12,137,268 bp
+  Read 2:    12,105,839 bp
+Total written (filtered):     17,664,808 bp (72.9%)
+  Read 1:     8,860,436 bp
+  Read 2:     8,804,372 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 39470 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	3	0.0	1	2 1
+16	1	0.0	1	0 1
+17	6	0.0	1	3 3
+18	617	0.0	1	211 406
+19	38738	0.0	1	35353 3385
+20	102	0.0	1	23 79
+21	1	0.0	1	0 1
+23	1	0.0	1	1
+26	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 31585 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	157.6	0	1
+16	1	0.0	1	0 1
+17	2	0.0	1	0 2
+18	3	0.0	1	1 2
+19	218	0.0	1	42 176
+20	31102	0.0	2	25175 5927
+21	258	0.0	2	1 257
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54344x-515_S89_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54344x-515_S89_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54344x-515_S89_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54344x-515_S89_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.04 s (19 us/read; 3.08 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             53,634
+  Read 1 with adapter:                  52,227 (97.4%)
+  Read 2 with adapter:                  42,540 (79.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        42,317 (78.9%)
+
+Total basepairs processed:    32,240,291 bp
+  Read 1:    16,139,019 bp
+  Read 2:    16,101,272 bp
+Total written (filtered):     23,788,806 bp (73.8%)
+  Read 1:    11,930,588 bp
+  Read 2:    11,858,218 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 52227 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	1	0.2	0	1
+16	1	0.0	1	0 1
+17	24	0.0	1	5 19
+18	841	0.0	1	296 545
+19	51238	0.0	1	46533 4705
+20	118	0.0	1	19 99
+21	2	0.0	1	1 1
+22	1	0.0	1	1
+58	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 42540 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	2	209.5	0	2
+11	1	0.0	1	1
+14	1	0.0	1	0 1
+17	3	0.0	1	3
+18	1	0.0	1	0 1
+19	273	0.0	1	61 212
+20	42063	0.0	2	35261 6802
+21	196	0.0	2	6 190
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54345x-515_S90_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54345x-515_S90_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54345x-515_S90_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54345x-515_S90_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.10 s (16 us/read; 3.77 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             69,364
+  Read 1 with adapter:                  68,027 (98.1%)
+  Read 2 with adapter:                  55,035 (79.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        54,807 (79.0%)
+
+Total basepairs processed:    41,683,773 bp
+  Read 1:    20,867,634 bp
+  Read 2:    20,816,139 bp
+Total written (filtered):     30,803,087 bp (73.9%)
+  Read 1:    15,449,729 bp
+  Read 2:    15,353,358 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 68027 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	16.9	0	1
+12	4	0.0	1	4
+15	1	0.0	1	1
+16	3	0.0	1	3
+17	18	0.0	1	2 16
+18	1028	0.0	1	358 670
+19	66814	0.0	1	61042 5772
+20	146	0.0	1	23 123
+21	6	0.0	1	3 3
+22	4	0.0	1	1 3
+27	1	0.0	1	0 1
+32	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 55035 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	271.0	0	1
+11	1	0.0	1	1
+14	2	0.0	1	0 2
+15	1	0.0	1	1
+17	8	0.0	1	7 1
+18	8	0.0	1	0 8
+19	395	0.0	1	66 329
+20	54351	0.0	2	45682 8669
+21	268	0.0	2	10 258
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54346x-515_S91_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54346x-515_S91_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54346x-515_S91_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54346x-515_S91_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.87 s (22 us/read; 2.77 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             40,044
+  Read 1 with adapter:                  39,262 (98.0%)
+  Read 2 with adapter:                  31,438 (78.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        31,338 (78.3%)
+
+Total basepairs processed:    24,068,611 bp
+  Read 1:    12,048,253 bp
+  Read 2:    12,020,358 bp
+Total written (filtered):     17,614,896 bp (73.2%)
+  Read 1:     8,834,118 bp
+  Read 2:     8,780,778 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 39262 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	0 1
+16	3	0.0	1	0 3
+17	11	0.0	1	0 11
+18	646	0.0	1	243 403
+19	38509	0.0	1	34978 3531
+20	89	0.0	1	12 77
+21	1	0.0	1	1
+24	2	0.0	1	1 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 31438 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	156.4	0	1
+16	1	0.0	1	0 1
+17	1	0.0	1	0 1
+18	5	0.0	1	2 3
+19	244	0.0	1	41 203
+20	30987	0.0	2	25903 5084
+21	199	0.0	2	3 196
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54347x-515_S92_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54347x-515_S92_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54347x-515_S92_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54347x-515_S92_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.88 s (22 us/read; 2.67 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             39,014
+  Read 1 with adapter:                  38,055 (97.5%)
+  Read 2 with adapter:                  30,788 (78.9%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        30,645 (78.5%)
+
+Total basepairs processed:    23,452,329 bp
+  Read 1:    11,740,065 bp
+  Read 2:    11,712,264 bp
+Total written (filtered):     17,227,115 bp (73.5%)
+  Read 1:     8,639,925 bp
+  Read 2:     8,587,190 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 38055 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1	0.0	1	1
+12	1	0.0	1	1
+15	1	0.0	1	1
+17	14	0.0	1	3 11
+18	638	0.0	1	227 411
+19	37288	0.0	1	33888 3400
+20	106	0.0	1	17 89
+21	2	0.0	1	1 1
+22	3	0.0	1	3
+55	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 30788 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	152.4	0	1
+5	1	38.1	0	1
+6	1	9.5	0	1
+13	1	0.0	1	0 1
+15	2	0.0	1	2
+17	2	0.0	1	1 1
+18	8	0.0	1	3 5
+19	223	0.0	1	37 186
+20	30356	0.0	2	25492 4864
+21	193	0.0	2	2 191
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54348x-515_S93_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54348x-515_S93_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54348x-515_S93_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54348x-515_S93_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.11 s (23 us/read; 2.66 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             49,043
+  Read 1 with adapter:                  47,969 (97.8%)
+  Read 2 with adapter:                  38,945 (79.4%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        38,763 (79.0%)
+
+Total basepairs processed:    29,483,731 bp
+  Read 1:    14,758,415 bp
+  Read 2:    14,725,316 bp
+Total written (filtered):     21,792,407 bp (73.9%)
+  Read 1:    10,928,757 bp
+  Read 2:    10,863,650 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 47969 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	1	0.7	0	1
+11	1	0.0	1	0 1
+12	3	0.0	1	2 1
+16	1	0.0	1	1
+17	9	0.0	1	2 7
+18	746	0.0	1	276 470
+19	47091	0.0	1	42974 4117
+20	108	0.0	1	18 90
+21	2	0.0	1	2
+22	1	0.0	1	1
+23	2	0.0	1	1 1
+29	2	0.0	1	2
+36	1	0.0	1	1
+58	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 38945 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	3	766.3	0	3
+10	1	0.0	1	1
+15	2	0.0	1	1 1
+17	7	0.0	1	5 2
+18	7	0.0	1	3 4
+19	240	0.0	1	54 186
+20	38466	0.0	2	32655 5811
+21	219	0.0	2	6 213
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54349x-515_S94_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54349x-515_S94_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54349x-515_S94_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54349x-515_S94_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.96 s (18 us/read; 3.35 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             53,678
+  Read 1 with adapter:                  52,642 (98.1%)
+  Read 2 with adapter:                  42,578 (79.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        42,416 (79.0%)
+
+Total basepairs processed:    32,268,185 bp
+  Read 1:    16,154,360 bp
+  Read 2:    16,113,825 bp
+Total written (filtered):     23,844,675 bp (73.9%)
+  Read 1:    11,959,557 bp
+  Read 2:    11,885,118 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 52642 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	52.4	0	1
+9	1	0.2	0	1
+10	1	0.1	1	1
+12	3	0.0	1	1 2
+14	1	0.0	1	0 1
+16	4	0.0	1	0 4
+17	8	0.0	1	1 7
+18	450	0.0	1	102 348
+19	52074	0.0	1	47505 4569
+20	95	0.0	1	11 84
+21	1	0.0	1	1
+23	2	0.0	1	1 1
+49	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 42578 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	1	0.0	1	1
+17	5	0.0	1	2 3
+18	7	0.0	1	2 5
+19	296	0.0	1	50 246
+20	42010	0.0	2	35299 6711
+21	256	0.0	2	9 247
+22	1	0.0	2	1
+52	1	0.0	2	1
+62	1	0.0	2	0 1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54350x-515_S95_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54350x-515_S95_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54350x-515_S95_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54350x-515_S95_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.78 s (26 us/read; 2.33 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             30,203
+  Read 1 with adapter:                  29,639 (98.1%)
+  Read 2 with adapter:                  24,084 (79.7%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        23,981 (79.4%)
+
+Total basepairs processed:    18,158,845 bp
+  Read 1:     9,089,944 bp
+  Read 2:     9,068,901 bp
+Total written (filtered):     13,483,433 bp (74.3%)
+  Read 1:     6,761,937 bp
+  Read 2:     6,721,496 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 29639 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	471.9	0	1
+7	1	1.8	0	1
+12	1	0.0	1	1
+15	1	0.0	1	1
+16	3	0.0	1	2 1
+17	6	0.0	1	3 3
+18	258	0.0	1	60 198
+19	29316	0.0	1	26778 2538
+20	50	0.0	1	9 41
+48	2	0.0	1	2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 24084 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	1	118.0	0	1
+13	1	0.0	1	1
+16	1	0.0	1	1
+17	1	0.0	1	1
+18	4	0.0	1	3 1
+19	149	0.0	1	35 114
+20	23758	0.0	2	19845 3913
+21	169	0.0	2	4 165
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54351x-515_S96_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54351x-515_S96_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54351x-515_S96_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54351x-515_S96_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.92 s (22 us/read; 2.77 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             42,560
+  Read 1 with adapter:                  41,667 (97.9%)
+  Read 2 with adapter:                  33,529 (78.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        33,382 (78.4%)
+
+Total basepairs processed:    25,590,624 bp
+  Read 1:    12,809,311 bp
+  Read 2:    12,781,313 bp
+Total written (filtered):     18,770,543 bp (73.3%)
+  Read 1:     9,412,949 bp
+  Read 2:     9,357,594 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 41667 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	1	2.6	0	1
+12	2	0.0	1	1 1
+14	2	0.0	1	1 1
+16	1	0.0	1	1
+17	7	0.0	1	3 4
+18	359	0.0	1	86 273
+19	41219	0.0	1	37597 3622
+20	76	0.0	1	16 60
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 33529 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	1	0.0	1	1
+17	1	0.0	1	1
+18	8	0.0	1	3 5
+19	268	0.0	1	47 221
+20	33022	0.0	2	27605 5417
+21	228	0.0	2	0 228
+22	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54352x-515_S97_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54352x-515_S97_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54352x-515_S97_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54352x-515_S97_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.96 s (22 us/read; 2.71 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             43,270
+  Read 1 with adapter:                  42,409 (98.0%)
+  Read 2 with adapter:                  34,401 (79.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        34,265 (79.2%)
+
+Total basepairs processed:    26,008,076 bp
+  Read 1:    13,019,873 bp
+  Read 2:    12,988,203 bp
+Total written (filtered):     19,258,731 bp (74.0%)
+  Read 1:     9,659,138 bp
+  Read 2:     9,599,593 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 42409 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	3	0.0	1	3
+16	1	0.0	1	0 1
+17	5	0.0	1	0 5
+18	366	0.0	1	70 296
+19	41954	0.0	1	38169 3785
+20	78	0.0	1	13 65
+21	2	0.0	1	1 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 34401 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	1
+17	3	0.0	1	2 1
+18	3	0.0	1	1 2
+19	225	0.0	1	36 189
+20	33953	0.0	2	28591 5362
+21	216	0.0	2	2 214
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54353x-515_S98_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54353x-515_S98_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54353x-515_S98_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54353x-515_S98_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.98 s (20 us/read; 2.93 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             47,781
+  Read 1 with adapter:                  46,723 (97.8%)
+  Read 2 with adapter:                  38,008 (79.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        37,855 (79.2%)
+
+Total basepairs processed:    28,728,561 bp
+  Read 1:    14,380,861 bp
+  Read 2:    14,347,700 bp
+Total written (filtered):     21,285,611 bp (74.1%)
+  Read 1:    10,674,971 bp
+  Read 2:    10,610,640 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 46723 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+15	1	0.0	1	0 1
+16	4	0.0	1	2 2
+17	4	0.0	1	0 4
+18	373	0.0	1	78 295
+19	46273	0.0	1	42220 4053
+20	66	0.0	1	7 59
+21	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 38008 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+17	2	0.0	1	0 2
+18	5	0.0	1	0 5
+19	274	0.0	1	44 230
+20	37465	0.0	2	31171 6294
+21	262	0.0	2	9 253
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54354x-515_S99_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54354x-515_S99_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54354x-515_S99_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54354x-515_S99_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.75 s (23 us/read; 2.66 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             33,319
+  Read 1 with adapter:                  32,610 (97.9%)
+  Read 2 with adapter:                  26,740 (80.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        26,624 (79.9%)
+
+Total basepairs processed:    20,031,683 bp
+  Read 1:    10,027,329 bp
+  Read 2:    10,004,354 bp
+Total written (filtered):     14,969,087 bp (74.7%)
+  Read 1:     7,507,110 bp
+  Read 2:     7,461,977 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 32610 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	1	2.0	0	1
+12	1	0.0	1	1
+14	1	0.0	1	1
+17	6	0.0	1	2 4
+18	253	0.0	1	61 192
+19	32266	0.0	1	29462 2804
+20	80	0.0	1	13 67
+21	1	0.0	1	1
+22	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 26740 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	520.6	0	1
+16	1	0.0	1	1
+18	6	0.0	1	2 4
+19	181	0.0	1	30 151
+20	26296	0.0	2	22359 3937
+21	255	0.0	2	4 251
+
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54341x-515_S86_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54341x-515_S86_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54341x-515_S86_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54341x-515_S86_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54342x-515_S87_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54342x-515_S87_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54342x-515_S87_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54342x-515_S87_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54343x-515_S88_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54343x-515_S88_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54343x-515_S88_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54343x-515_S88_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54344x-515_S89_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54344x-515_S89_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54344x-515_S89_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54344x-515_S89_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54345x-515_S90_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54345x-515_S90_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54345x-515_S90_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54345x-515_S90_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54346x-515_S91_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54346x-515_S91_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54346x-515_S91_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54346x-515_S91_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54347x-515_S92_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54347x-515_S92_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54347x-515_S92_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54347x-515_S92_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54348x-515_S93_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54348x-515_S93_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54348x-515_S93_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54348x-515_S93_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54349x-515_S94_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54349x-515_S94_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54349x-515_S94_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54349x-515_S94_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54350x-515_S95_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54350x-515_S95_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54350x-515_S95_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54350x-515_S95_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54351x-515_S96_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54351x-515_S96_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54351x-515_S96_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54351x-515_S96_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54352x-515_S97_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54352x-515_S97_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54352x-515_S97_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54352x-515_S97_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54353x-515_S98_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54353x-515_S98_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54353x-515_S98_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54353x-515_S98_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54354x-515_S99_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54354x-515_S99_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54354x-515_S99_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54354x-515_S99_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54355x-515_S100_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54355x-515_S100_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54355x-515_S100_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54355x-515_S100_L001_R2_001.fastq.gzThis is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54355x-515_S100_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54355x-515_S100_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54355x-515_S100_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54355x-515_S100_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.70 s (26 us/read; 2.35 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             27,352
+  Read 1 with adapter:                  26,802 (98.0%)
+  Read 2 with adapter:                  21,823 (79.8%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        21,748 (79.5%)
+
+Total basepairs processed:    16,443,227 bp
+  Read 1:     8,231,595 bp
+  Read 2:     8,211,632 bp
+Total written (filtered):     12,225,998 bp (74.4%)
+  Read 1:     6,131,826 bp
+  Read 2:     6,094,172 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 26802 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	2	0.1	0	2
+12	2	0.0	1	1 1
+14	1	0.0	1	0 1
+17	5	0.0	1	2 3
+18	265	0.0	1	64 201
+19	26480	0.0	1	24171 2309
+20	47	0.0	1	5 42
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 21823 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1	0.0	1	1
+14	1	0.0	1	0 1
+17	1	0.0	1	1
+18	5	0.0	1	3 2
+19	167	0.0	1	36 131
+20	21499	0.0	2	18170 3329
+21	149	0.0	2	2 147
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54356x-515_S101_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54356x-515_S101_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54356x-515_S101_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54356x-515_S101_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.01 s (21 us/read; 2.92 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             49,080
+  Read 1 with adapter:                  48,187 (98.2%)
+  Read 2 with adapter:                  39,529 (80.5%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        39,378 (80.2%)
+
+Total basepairs processed:    29,509,330 bp
+  Read 1:    14,771,674 bp
+  Read 2:    14,737,656 bp
+Total written (filtered):     22,140,782 bp (75.0%)
+  Read 1:    11,103,794 bp
+  Read 2:    11,036,988 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 48187 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	0 1
+13	1	0.0	1	0 1
+16	3	0.0	1	2 1
+17	8	0.0	1	2 6
+18	451	0.0	1	107 344
+19	47633	0.0	1	43394 4239
+20	90	0.0	1	13 77
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 39529 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	0 1
+16	2	0.0	1	2
+17	2	0.0	1	2
+18	7	0.0	1	1 6
+19	273	0.0	1	45 228
+20	38998	0.0	2	33152 5846
+21	245	0.0	2	3 242
+115	1	0.0	2	1
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54357x-515_S102_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54357x-515_S102_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54357x-515_S102_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54357x-515_S102_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 1.07 s (23 us/read; 2.57 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             45,726
+  Read 1 with adapter:                  44,680 (97.7%)
+  Read 2 with adapter:                  36,707 (80.3%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        36,556 (79.9%)
+
+Total basepairs processed:    27,492,910 bp
+  Read 1:    13,761,696 bp
+  Read 2:    13,731,214 bp
+Total written (filtered):     20,555,284 bp (74.8%)
+  Read 1:    10,308,172 bp
+  Read 2:    10,247,112 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 44680 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	1	0.2	0	1
+11	1	0.0	1	1
+12	1	0.0	1	1
+15	2	0.0	1	2
+16	2	0.0	1	1 1
+17	5	0.0	1	1 4
+18	383	0.0	1	80 303
+19	44208	0.0	1	40095 4113
+20	76	0.0	1	16 60
+22	1	0.0	1	1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 36707 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+14	1	0.0	1	1
+16	1	0.0	1	0 1
+17	5	0.0	1	3 2
+18	6	0.0	1	2 4
+19	297	0.0	1	56 241
+20	36138	0.0	2	30726 5412
+21	259	0.0	2	3 256
+This is cutadapt 3.1 with Python 3.6.12
+Command line parameters: --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54358x-515_S103_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54358x-515_S103_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54358x-515_S103_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54358x-515_S103_L001_R2_001.fastq.gz
+Processing reads on 12 cores in paired-end mode ...
+Finished in 0.92 s (18 us/read; 3.35 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             51,630
+  Read 1 with adapter:                  50,564 (97.9%)
+  Read 2 with adapter:                  40,881 (79.2%)
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):        40,728 (78.9%)
+
+Total basepairs processed:    31,040,580 bp
+  Read 1:    15,539,835 bp
+  Read 2:    15,500,745 bp
+Total written (filtered):     22,898,171 bp (73.8%)
+  Read 1:    11,484,885 bp
+  Read 2:    11,413,286 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NTGYCAGCMGCCGCGGTAA; Type: regular 5'; Length: 19; Trimmed: 50564 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	806.7	0	1
+10	1	0.0	1	1
+12	4	0.0	1	3 1
+13	1	0.0	1	0 1
+16	4	0.0	1	3 1
+17	9	0.0	1	3 6
+18	443	0.0	1	111 332
+19	50015	0.0	1	45641 4374
+20	84	0.0	1	13 71
+38	2	0.0	1	2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: NCGYCAATTYMTTTRAGTTT; Type: regular 5'; Length: 20; Trimmed: 40881 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	1	0.0	1	0 1
+17	2	0.0	1	2
+18	8	0.0	1	1 7
+19	320	0.0	1	69 251
+20	40280	0.0	2	33822 6458
+21	270	0.0	2	9 261
+
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54356x-515_S101_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54356x-515_S101_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54356x-515_S101_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54356x-515_S101_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54357x-515_S102_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54357x-515_S102_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54357x-515_S102_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54357x-515_S102_L001_R2_001.fastq.gz
+
+
+Command: cutadapt --cores 12 --error-rate 0.1 --times 1 --overlap 3 --minimum-length 1 -o /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54358x-515_S103_L001_R1_001.fastq.gz -p /tmp/q2-CasavaOneEightSingleLanePerSampleDirFmt-d38mdkdx/PCMB54358x-515_S103_L001_R2_001.fastq.gz --front NTGYCAGCMGCCGCGGTAA -G NCGYCAATTYMTTTRAGTTT --discard-untrimmed /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54358x-515_S103_L001_R1_001.fastq.gz /tmp/qiime2-archive-hkrf_fjf/a0ea0923-4ab4-4369-9ed1-7eebba11753c/data/PCMB54358x-515_S103_L001_R2_001.fastq.gz
+
+Saved SampleData[PairedEndSequencesWithQuality] to: 01-ProcessReads/trimmed-seqs.qza
